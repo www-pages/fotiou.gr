@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100px"
+   height="100px"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="About_icon_(The_Noun_Project) za.svg"
+   inkscape:version="0.92.3 (3ce5693, 2018-03-11)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="2.36"
+     inkscape:cx="50"
+     inkscape:cy="50"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 50.432927,10.214327 c -23.140533,0 -41.8985372,18.758005 -41.8985372,41.898537 0,23.140532 18.7580042,41.89939 41.8985372,41.89939 23.140532,0 41.897683,-18.758858 41.897683,-41.89939 0,-23.140532 -18.757151,-41.898537 -41.897683,-41.898537 z m 7.310186,66.675691 c 0,3.756209 -3.247644,6.799915 -7.253015,6.799915 -4.005371,0 -7.253016,-3.043706 -7.253016,-6.799915 V 45.691812 c 0,-3.755355 3.247645,-6.799915 7.253016,-6.799915 4.005371,0 7.253015,3.04456 7.253015,6.799915 z M 50.432927,36.087966 c -4.307438,0 -7.799978,-3.491687 -7.799978,-7.800831 0,-4.308291 3.491687,-7.799978 7.799978,-7.799978 4.309144,0 7.800831,3.491687 7.800831,7.799978 -8.53e-4,4.309144 -3.49254,7.800831 -7.800831,7.800831 z"
+     id="path2"
+     style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.85329592"
+     inkscape:connector-curvature="0" />
+</svg>
