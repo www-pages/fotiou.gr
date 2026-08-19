@@ -1,72 +1,824 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Nikos Fotiou Home Page</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nikos Fotiou — researcher and technology leader working on decentralized identity, IoT security, information-centric networking, and blockchain systems.">
+  <meta name="theme-color" content="#102b3f">
+  <title>Nikos Fotiou</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/fotiou.css">
 </head>
 <body>
-	<div class="container">
-		<h1>Nikos Fotiou <small class="text-muted">home page</small></h1>
-		<div class="jumbotron">
-			<div class="row">
-				<div class="col-md-3">
-					<img src="img/fotiou.jpg" class="rounded" max-width="100%" alt="Nikos Fotiou">
-					<br/>
-					<a href="https://github.com/nikosft"><img src="img/github.svg" width="20px" title="Github"/></a>
-					<a href="https://twitter.com/nikosft"><img src="img/twitter.svg" width="20px" title="Twitter"/></a>
-					<a href="https://scholar.google.com/citations?user=4tyfqSUAAAAJ&hl"><img src="img/scholar.svg" width="20px" title="Google scholar"/></a>
-					<a href="https://www.linkedin.com/in/nikos-fotiou-109b7919"><img src="img/linkedin.svg" width="20px" title="Linkedin"/></a>
-					<a href="CVe.pdf"><img src="img/cv.svg" width="20px" title="CV"/></a>
-				</div>
-				<div class="col-md-9">
-					<h1>Welcome</h1>
-					<p>I am Nikos Fotiou and this is my home page.</p>
-					<h3>About me</h3>
-					<p>I am CEO of <a href="https://www.excid.io">ExcID</a></p>
-					<p>I used to be a post-doc researcher at the <a href="https://mm.aueb.gr">Mobile Multimedia Laboratory</a> of the <a href="http://www.aueb.gr">Athens University of Economics and
-						Business</a>. 
-					</p>
-				</div>	
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-			<h3>Publications</h3>
-			<p> You can find a full list of my publications in my <a href="CVe.pdf">CV</a>. I try to put the .pdf
-			files of my publications in my <a href="https://mm.aueb.gr">lab's web site.</a> You should be able to find all of 
-			them with <a href="https://scholar.google.com/citations?user=4tyfqSUAAAAJ&hl">Google scholar.</a>
-			If you need a .pdf version of a publication and you cannot find it online, please send me an email</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-			<h3>Professional activities</h3>
-			<p> You can find information about reserach projects I have participates, as well as about
-				my other professional activities, in my CV. 
-			</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-			<h3>Other activities</h3>
-			<p>I am experimenting with decentralization technologies, IoT, and security at <a href="https://controlthings.gr">ControlThings</a></p>
-			<p>I maintain a <a href="https://respected-professor.blogspot.com/">Blog</a> where from time to time I post technical articles. 
-				With some good friends we used to write in <a fref="http://sunday-security-story.blogspot.gr/">another blog</a> in Greek. 
-				Even more rarely I write articles <a href="http://3kaiokoukos.blogspot.gr/">related to security</a> in Greek.
-				I love spending time in <a href="https://twitter.com/nikosft">twitter</a>. 
-				I also enjoy <a href="https://github.com/nikosft">sharing my code with others.</a></p>
-		</div>
-		</div>
-	</div>
-	<footer class="container text-center">
-		<hr/>
-		<p>
-			Nikos Fotiou <a href="mailto:nikos@fotiou.gr" class="text-decoration-none"><img src="img/envelope.svg" alt="contact" width="20px" height="20px"/></a>
-		</p>
+  <header class="site-header">
+    <div class="shell nav-inner">
+      <a class="wordmark" href="#top" aria-label="Nikos Fotiou, home">NF<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#publications">Publications</a>
+        <a class="nav-cv" href="CVe.pdf" target="_blank" rel="noopener">Curriculum vitae</a>
+      </nav>
+    </div>
+  </header>
 
-	</footer>
-	
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="hero-intro">I am CEO of <a href="https://www.excid.io" target="_blank" rel="noopener">ExcID</a> and a postdoctoral researcher at the <a href="https://mm.aueb.gr" target="_blank" rel="noopener">Mobile Multimedia Laboratory</a> of the <a href="https://www.aueb.gr" target="_blank" rel="noopener">Athens University of Economics and Business</a>.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#publications">Explore publications</a>
+            <a class="button button-secondary" href="CVe.pdf" target="_blank" rel="noopener">View CV</a>
+          </div>
+        </div>
+        <aside class="profile-card" aria-label="Profile and links">
+          <div class="portrait-wrap">
+            <img src="img/fotiou.png" width="640" height="620" alt="Portrait of Nikos Fotiou">
+          </div>
+          <div class="profile-body">
+            <div class="profile-links">
+              <a href="https://github.com/nikosft" target="_blank" rel="noopener"><img src="img/github.svg" alt="">GitHub</a>
+              <a href="https://scholar.google.com/citations?user=4tyfqSUAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img src="img/scholar.svg" alt="">Scholar</a>
+              <a href="https://www.linkedin.com/in/nikos-fotiou-109b7919" target="_blank" rel="noopener"><img src="img/linkedin.svg" alt="">LinkedIn</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+
+    <section class="publications section" id="publications">
+      <div class="shell">
+        <div class="publications-heading">
+          <div>
+            <h2>Publications</h2>
+          </div>
+          <a class="text-link" href="https://scholar.google.com/citations?user=4tyfqSUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <section class="publication-group">
+          <div class="group-heading">
+            <div><span>01</span><h2>Journal publications</h2></div>
+          </div>
+          <div class="publication-list">
+<article class="publication">
+            <div class="publication-index"><span>J.25</span><time>2024</time></div>
+            <div class="publication-copy">
+              <h3>Secure smart contract-based Digital Twins for the Internet of Things</h3>
+              <p class="publication-authors">Iakovos Pittaras, Nikos Fotiou, Christos Karapapas, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Blockchain: Research and Applications</cite> · vol. 5(1) · article 100168</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J25.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Secure smart contract-based Digital Twins for the Internet of Things">PDF</a><a class="pub-link" href="https://doi.org/10.1016/j.bcra.2023.100168" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.24</span><time>2023</time></div>
+            <div class="publication-copy">
+              <h3>Self-verifiable Content using Decentralized Identifiers</h3>
+              <p class="publication-authors">Nikos Fotiou, Yannis Thomas, Vasilios A. Siris, George Xylomenos &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Computer Networks</cite> · vol. 230 · article 109799</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J24.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Self-verifiable Content using Decentralized Identifiers">PDF</a><a class="pub-link" href="https://doi.org/10.1016/j.comnet.2023.109799" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.23</span><time>2021</time></div>
+            <div class="publication-copy">
+              <h3>Securing SDN-Based IoT Group Communication</h3>
+              <p class="publication-authors">Bander Alzahrani &amp; Nikos Fotiou</p>
+              <p class="publication-venue"><cite>Future Internet</cite> · vol. 13(8) · article 207</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J23.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Securing SDN-Based IoT Group Communication">PDF</a><a class="pub-link" href="https://doi.org/10.3390/fi13080207" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.22</span><time>2022</time></div>
+            <div class="publication-copy">
+              <h3>IoT Group Membership Management Using Decentralized Identifiers and Verifiable Credentials</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris, George Xylomenos &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Future Internet</cite> · vol. 14(6) · article 173</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J22.pdf" target="_blank" rel="noopener" aria-label="Open PDF for IoT Group Membership Management Using Decentralized Identifiers and Verifiable Credentials">PDF</a><a class="pub-link" href="https://doi.org/10.3390/fi14060173" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.21</span><time>2021</time></div>
+            <div class="publication-copy">
+              <h3>A privacy-preserving statistics marketplace using local differential privacy and blockchain: An application to smart-grid measurements sharing</h3>
+              <p class="publication-authors">Nikos Fotiou, Iakovos Pittaras, Vasilios A. Siris, George C. Polyzos &amp; Priit Anton</p>
+              <p class="publication-venue"><cite>Blockchain: Research and Applications</cite> · vol. 2(1) · article 100022</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J21.pdf" target="_blank" rel="noopener" aria-label="Open PDF for A privacy-preserving statistics marketplace using local differential privacy and blockchain: An application to smart-grid measurements sharing">PDF</a><a class="pub-link" href="https://doi.org/10.1016/j.bcra.2021.100022" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.20</span><time>2021</time></div>
+            <div class="publication-copy">
+              <h3>Beacons and blockchains in the mobile gaming ecosystem: A feasibility analysis</h3>
+              <p class="publication-authors">Iakovos Pittaras, Nikos Fotiou, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Sensors</cite> · vol. 21(3) · article 862</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J20.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Beacons and blockchains in the mobile gaming ecosystem: A feasibility analysis">PDF</a><a class="pub-link" href="https://doi.org/10.3390/s21030862" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.19</span><time>2020</time></div>
+            <div class="publication-copy">
+              <h3>Improving mobile ad hoc networks using hybrid IP-Information Centric Networking</h3>
+              <p class="publication-authors">Yiannis Thomas, Nikos Fotiou, Stavros Toumpis &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Computer Communications</cite> · vol. 156 · pp. 25–34</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J19.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Improving mobile ad hoc networks using hybrid IP-Information Centric Networking">PDF</a><a class="pub-link" href="https://doi.org/10.1016/j.comcom.2020.03.029" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.18</span><time>2020</time></div>
+            <div class="publication-copy">
+              <h3>Decentralized authorization in constrained IoT environments exploiting interledger mechanisms</h3>
+              <p class="publication-authors">Vasilios A. Siris, Dimitrios Dimopoulos, Nikos Fotiou, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Computer Communications</cite> · vol. 152 · pp. 243–251</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J18.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Decentralized authorization in constrained IoT environments exploiting interledger mechanisms">PDF</a><a class="pub-link" href="https://doi.org/10.1016/j.comcom.2020.01.030" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.17</span><time>2020</time></div>
+            <div class="publication-copy">
+              <h3>Enhancing internet of things security using software-defined networking</h3>
+              <p class="publication-authors">Bander Alzahrani &amp; Nikos Fotiou</p>
+              <p class="publication-venue"><cite>Journal of Systems Architecture</cite> · vol. 110 · article 101779</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J17.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Enhancing internet of things security using software-defined networking">PDF</a><a class="pub-link" href="https://doi.org/10.1016/j.sysarc.2020.101779" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.16</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Interledger Approaches</h3>
+              <p class="publication-authors">Vasilios A. Siris, Pekka Nikander, Spyros Voulgaris, Nikos Fotiou, Dmitrij Lagutin &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>IEEE Access</cite> · vol. 7 · pp. 89948–89966</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J16.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Interledger Approaches">PDF</a><a class="pub-link" href="https://doi.org/10.1109/access.2019.2926880" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.15</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Name-Based Security for Information-Centric Networking Architectures</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Future Internet</cite> · vol. 11(11) · article 232</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J15.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Name-Based Security for Information-Centric Networking Architectures">PDF</a><a class="pub-link" href="https://doi.org/10.3390/fi11110232" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.14</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Blockchain Technology for Intelligent Environments</h3>
+              <p class="publication-authors">Spyros Voulgaris, Nikos Fotiou, Vasilios A. Siris, George C. Polyzos, Mikael Jaatinen &amp; Yannis Oikonomidis</p>
+              <p class="publication-venue"><cite>Future Internet</cite> · vol. 11(10) · article 213</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J14.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Blockchain Technology for Intelligent Environments">PDF</a><a class="pub-link" href="https://doi.org/10.3390/fi11100213" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.13</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Improving the Privacy of IoT with Decentralised Identifiers (DIDs)</h3>
+              <p class="publication-authors">Yki Kortesniemi, Dmitrij Lagutin, Tommi Elo &amp; Nikos Fotiou</p>
+              <p class="publication-venue"><cite>Journal of Computer Networks and Communications</cite> · vol. 2019 · pp. 1–10</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J13.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Improving the Privacy of IoT with Decentralised Identifiers (DIDs)">PDF</a><a class="pub-link" href="https://doi.org/10.1155/2019/8706760" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.12</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Smart Application-aware IoT Data Collection</h3>
+              <p class="publication-authors">Vasilios A. Siris, Nikos Fotiou, Alexandros Mertzianis &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Journal of Reliable Intelligent Environments</cite> · vol. 5(1) · pp. 17–28</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J12.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Smart Application-aware IoT Data Collection">PDF</a><a class="pub-link" href="https://doi.org/10.1007/s40860-019-00077-y" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.11</span><time>2018</time></div>
+            <div class="publication-copy">
+              <h3>Rendezvous‐based access control for information‐centric architectures</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; Bander A. Alzahrani</p>
+              <p class="publication-venue"><cite>International Journal of Network Management</cite> · vol. 28(1) · article e2007</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J11.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Rendezvous‐based access control for information‐centric architectures">PDF</a><a class="pub-link" href="https://doi.org/10.1002/nem.2007" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.10</span><time>2017</time></div>
+            <div class="publication-copy">
+              <h3>Network and Protocol Architectures for Future Satellite Systems</h3>
+              <p class="publication-authors">Tomaso de Cola, Alberto Ginesi, Giovanni Giambene, George C. Polyzos, Vasilios A. Siris, Nikos Fotiou &amp; Yiannis Thomas</p>
+              <p class="publication-venue"><cite>Foundations and Trends in Networking</cite> · vol. 12(1–2) · pp. 1–161</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J10.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Network and Protocol Architectures for Future Satellite Systems">PDF</a><a class="pub-link" href="https://doi.org/10.1561/1300000046" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.9</span><time>2017</time></div>
+            <div class="publication-copy">
+              <h3>An Improved Scheme for Protecting Medical Data in Public Clouds</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George Xylomenos</p>
+              <p class="publication-venue"><cite>Communications in Computer and Information Science</cite> · vol. 736 · pp. 66–79</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J9.pdf" target="_blank" rel="noopener" aria-label="Open PDF for An Improved Scheme for Protecting Medical Data in Public Clouds">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-319-62704-5_5" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.8</span><time>2015</time></div>
+            <div class="publication-copy">
+              <h3>Access control as a service for the Cloud</h3>
+              <p class="publication-authors">Nikos Fotiou, Apostolis Machas, George C Polyzos &amp; George Xylomenos</p>
+              <p class="publication-venue"><cite>Journal of Internet Services and Applications</cite> · vol. 6(1) · article 11</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J8.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Access control as a service for the Cloud">PDF</a><a class="pub-link" href="https://doi.org/10.1186/s13174-015-0026-4" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.7</span><time>2015</time></div>
+            <div class="publication-copy">
+              <h3>Building a reliable Internet of Things using Information-Centric Networking</h3>
+              <p class="publication-authors">George C. Polyzos &amp; Nikos Fotiou</p>
+              <p class="publication-venue"><cite>Journal of Reliable Intelligent Environments</cite> · vol. 1(1) · pp. 47–58</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J7.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Building a reliable Internet of Things using Information-Centric Networking">PDF</a><a class="pub-link" href="https://doi.org/10.1007/s40860-015-0003-5" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.6</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>Enhancing information lookup privacy through homomorphic encryption</h3>
+              <p class="publication-authors">Nikos Fotiou, Dirk Trossen, Giannis F. Marias, Alexandros Kostopoulos &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Security and Communication Networks</cite> · vol. 7(12) · pp. 2804–2814</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J6.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Enhancing information lookup privacy through homomorphic encryption">PDF</a><a class="pub-link" href="https://doi.org/10.1002/sec.910" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.5</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>Analysis of the effect of InfoRanking on content pollution in peer-to-peer systems</h3>
+              <p class="publication-authors">Peng Zhang, Nikos Fotiou, Bjarne E. Helvik, Giannis F. Marias &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Security and Communication Networks</cite> · vol. 7(4) · pp. 700–713</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J5.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Analysis of the effect of InfoRanking on content pollution in peer-to-peer systems">PDF</a><a class="pub-link" href="https://doi.org/10.1002/sec.773" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.4</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>Cognitive and Context Aware Assistive Environments Using Future Internet Technologies</h3>
+              <p class="publication-authors">Charalampos Doukas, Nikos Fotiou, George C. Polyzos &amp; Ilias Maglogiannis</p>
+              <p class="publication-venue"><cite>Universal Access in the Information Society</cite> · vol. 13(1) · pp. 59–72</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J4.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Cognitive and Context Aware Assistive Environments Using Future Internet Technologies">PDF</a><a class="pub-link" href="https://doi.org/10.1007/s10209-013-0299-y" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.3</span><time>2013</time></div>
+            <div class="publication-copy">
+              <h3>Handling Mobility in Future Publish-Subscribe Information-Centric Networks</h3>
+              <p class="publication-authors">Nikos Fotiou, Konstantinos Katsaros, George C. Polyzos, Mikko Särelä, Dirk Trossen &amp; George Xylomenos</p>
+              <p class="publication-venue"><cite>Telecommunication Systems</cite> · vol. 53(3) · pp. 299–314</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J3.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Handling Mobility in Future Publish-Subscribe Information-Centric Networks">PDF</a><a class="pub-link" href="https://doi.org/10.1007/s11235-013-9699-9" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.2</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>A Survey of Information-Centric Networking Research</h3>
+              <p class="publication-authors">George Xylomenos, Christopher N. Ververidis, Vasilios A. Siris, Nikos Fotiou, Christos Tsilopoulos, Xenofon Vasilakos, Konstantinos V. Katsaros &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>IEEE Communications Surveys &amp; Tutorials</cite> · vol. 16(2) · pp. 1024–1049</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J2.pdf" target="_blank" rel="noopener" aria-label="Open PDF for A Survey of Information-Centric Networking Research">PDF</a><a class="pub-link" href="https://doi.org/10.1109/surv.2013.070813.00063" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>J.1</span><time>2012</time></div>
+            <div class="publication-copy">
+              <h3>Illustrating a Publish-Subscribe Internet Architecture</h3>
+              <p class="publication-authors">Nikos Fotiou, Dirk Trossen &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Telecommunication Systems</cite> · vol. 51(4) · pp. 233–245</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/J1.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Illustrating a Publish-Subscribe Internet Architecture">PDF</a><a class="pub-link" href="https://doi.org/10.1007/s11235-011-9432-5" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+          </div>
+        </section>
+
+        <section class="publication-group">
+          <div class="group-heading">
+            <div><span>02</span><h2>Conference publications</h2></div>
+          </div>
+          <div class="publication-list">
+<article class="publication">
+            <div class="publication-index"><span>C.57</span><time>2024</time></div>
+            <div class="publication-copy">
+              <h3>Data integrity protection for data spaces</h3>
+              <p class="publication-authors">Nikos Fotiou, George Xylomenos &amp; Yannis Thomas</p>
+              <p class="publication-venue"><cite>Proceedings of the 17th European Workshop on Systems Security</cite> · pp. 44–50</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C57.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Data integrity protection for data spaces">PDF</a><a class="pub-link" href="https://doi.org/10.1145/3642974.3652284" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.56</span><time>2023</time></div>
+            <div class="publication-copy">
+              <h3>Access control for interoperable energy management systems using Verifiable Credentials</h3>
+              <p class="publication-authors">Nikos Fotiou, Spiros Chadoulos, Iordanis Koutsopoulos, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</cite> · pp. 1540–1545</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C56.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Access control for interoperable energy management systems using Verifiable Credentials">PDF</a><a class="pub-link" href="https://doi.org/10.1109/trustcom60117.2023.00210" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.55</span><time>2023</time></div>
+            <div class="publication-copy">
+              <h3>Peer Clustering for the InterPlanetary File System</h3>
+              <p class="publication-authors">Yannis Thomas, Nikos Fotiou, Iakovos Pittaras, George Xylomenos, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Proceedings of the 2nd ACM SIGCOMM Workshop on Future of Internet Routing &amp; Addressing</cite> · pp. 8–14</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C55.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Peer Clustering for the InterPlanetary File System">PDF</a><a class="pub-link" href="https://doi.org/10.1145/3607504.3609289" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.54</span><time>2023</time></div>
+            <div class="publication-copy">
+              <h3>Authentication, authorization, and selective disclosure for IoT data sharing using verifiable credentials and zero-knowledge proofs</h3>
+              <p class="publication-authors">Nikos Fotiou, Iakovos Pittaras, Spiros Chadoulos, Vasilios A. Siris, George C. Polyzos, Nikolaos Ipiotis &amp; Stratos Keranidis</p>
+              <p class="publication-venue"><cite>Lecture Notes in Computer Science</cite> · pp. 88–101</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C54.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Authentication, authorization, and selective disclosure for IoT data sharing using verifiable credentials and zero-knowledge proofs">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-031-25467-3_6" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.53</span><time>2022</time></div>
+            <div class="publication-copy">
+              <h3>Selective content disclosure using zero-knowledge proofs</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilis Kalos, Yannis Thomas, George Xylomenos, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2022 Global Information Infrastructure and Networking Symposium (GIIS)</cite> · pp. 52–56</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C53.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Selective content disclosure using zero-knowledge proofs">PDF</a><a class="pub-link" href="https://doi.org/10.1109/giis56506.2022.9936933" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.52</span><time>2022</time></div>
+            <div class="publication-copy">
+              <h3>Secure, mass web of things actuation using smart contracts-based digital twins</h3>
+              <p class="publication-authors">Iakovos Pittaras, Nikos Fotiou, Christos Karapapas, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2022 IEEE Symposium on Computers and Communications (ISCC)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C52.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Secure, mass web of things actuation using smart contracts-based digital twins">PDF</a><a class="pub-link" href="https://doi.org/10.1109/iscc55528.2022.9912991" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.51</span><time>2022</time></div>
+            <div class="publication-copy">
+              <h3>Continuous authorization over HTTP using Verifiable Credentials and OAuth 2.0</h3>
+              <p class="publication-authors">N. Fotiou, E. Faltaka, V. Kalos, A. Kefala, I. Pittaras, V. A. Siris &amp; G. C. Polyzos</p>
+              <p class="publication-venue"><cite>Open Identity Summit 2022</cite> · pp. 39–50</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C51.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Continuous authorization over HTTP using Verifiable Credentials and OAuth 2.0">PDF</a><a class="pub-link" href="https://doi.org/10.18420/OID2022_03" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.50</span><time>2022</time></div>
+            <div class="publication-copy">
+              <h3>Capabilities-based access control for IoT devices using Verifiable Credentials</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris, George C. Polyzos, Yki Kortesniemi &amp; Dmitrij Lagutin</p>
+              <p class="publication-venue"><cite>2022 IEEE Security and Privacy Workshops (SPW)</cite> · pp. 222–228</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C50.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Capabilities-based access control for IoT devices using Verifiable Credentials">PDF</a><a class="pub-link" href="https://doi.org/10.1109/spw54247.2022.9833873" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.49</span><time>2021</time></div>
+            <div class="publication-copy">
+              <h3>Capability-based access control for multi-tenant systems using OAuth 2.0 and Verifiable Credentials</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2021 International Conference on Computer Communications and Networks (ICCCN)</cite> · pp. 1–9</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C49.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Capability-based access control for multi-tenant systems using OAuth 2.0 and Verifiable Credentials">PDF</a><a class="pub-link" href="https://doi.org/10.1109/icccn52240.2021.9522214" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.48</span><time>2021</time></div>
+            <div class="publication-copy">
+              <h3>Enabling self-verifiable mutable content items in IPFS using Decentralized Identifiers</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2021 IFIP Networking Conference (IFIP Networking)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C48.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Enabling self-verifiable mutable content items in IPFS using Decentralized Identifiers">PDF</a><a class="pub-link" href="https://doi.org/10.23919/ifipnetworking52078.2021.9472820" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.47</span><time>2021</time></div>
+            <div class="publication-copy">
+              <h3>Securing named data networking routing using decentralized identifiers</h3>
+              <p class="publication-authors">Nikos Fotiou, Yannis Thomas, Vasilios A. Siris, George Xylomenos &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2021 IEEE 22nd International Conference on High Performance Switching and Routing (HPSR)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C47.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Securing named data networking routing using decentralized identifiers">PDF</a><a class="pub-link" href="https://doi.org/10.1109/hpsr52026.2021.9481850" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.46</span><time>2020</time></div>
+            <div class="publication-copy">
+              <h3>Ransomware as a Service using Smart Contracts and IPFS</h3>
+              <p class="publication-authors">Christos Karapapas, Iakovos Pittaras, Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2020 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)</cite> · pp. 1–5</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C46.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Ransomware as a Service using Smart Contracts and IPFS">PDF</a><a class="pub-link" href="https://doi.org/10.1109/icbc48266.2020.9169451" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.45</span><time>2020</time></div>
+            <div class="publication-copy">
+              <h3>OAuth 2.0 authorization using blockchain-based tokens</h3>
+              <p class="publication-authors">Nikos Fotiou, Iakovos Pittaras, Vasilios A. Siris, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Proceedings 2020 Workshop on Decentralized IoT Systems and Security</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C45.pdf" target="_blank" rel="noopener" aria-label="Open PDF for OAuth 2.0 authorization using blockchain-based tokens">PDF</a><a class="pub-link" href="https://doi.org/10.14722/diss.2020.23002" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.44</span><time>2020</time></div>
+            <div class="publication-copy">
+              <h3>Hierarchical Blockchain Topologies for Quality Control in Food Supply Chains</h3>
+              <p class="publication-authors">Spyros Voulgaris, Nikos Fotiou, Vasilios A. Siris, George C. Polyzos, Artemios Tomaras &amp; Sotiris Karachontzitis</p>
+              <p class="publication-venue"><cite>2020 European Conference on Networks and Communications (EuCNC)</cite> · pp. 139–143</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C44.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Hierarchical Blockchain Topologies for Quality Control in Food Supply Chains">PDF</a><a class="pub-link" href="https://doi.org/10.1109/eucnc48522.2020.9200913" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.43</span><time>2020</time></div>
+            <div class="publication-copy">
+              <h3>Decentralized Interledger Gateway Architectures in Authorization Scenarios with Multiple Ledgers</h3>
+              <p class="publication-authors">Vasilios A. Siris, Michalis Tsenos, Dimitrios Dimopoulos, Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2020 Global Internet of Things Summit (GIoTS)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C43.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Decentralized Interledger Gateway Architectures in Authorization Scenarios with Multiple Ledgers">PDF</a><a class="pub-link" href="https://doi.org/10.1109/giots49054.2020.9119678" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.42</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Exploiting Satellite Broadcast despite HTTPS</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris, Mario Marchese, Franco Davoli, Luca Boero &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2019 IEEE Global Communications Conference (GLOBECOM)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C42.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Exploiting Satellite Broadcast despite HTTPS">PDF</a><a class="pub-link" href="https://doi.org/10.1109/globecom38437.2019.9014011" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.41</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>IoT Resource Access utilizing Blockchains and Trusted Execution Environments</h3>
+              <p class="publication-authors">Vasilios A. Siris, Dimitrios Dimopoulos, Nikos Fotiou, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2019 Global IoT Summit (GIoTS)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C41.pdf" target="_blank" rel="noopener" aria-label="Open PDF for IoT Resource Access utilizing Blockchains and Trusted Execution Environments">PDF</a><a class="pub-link" href="https://doi.org/10.1109/giots.2019.8766403" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.40</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Trusted D2D-based IoT Resource Access using Smart Contracts</h3>
+              <p class="publication-authors">Vasilios A. Siris, Dimitrios Dimopoulos, Nikos Fotiou, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2019 IEEE 20th International Symposium on &quot;A World of Wireless, Mobile and Multimedia Networks&quot; (WoWMoM)</cite> · pp. 1–9</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C40.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Trusted D2D-based IoT Resource Access using Smart Contracts">PDF</a><a class="pub-link" href="https://doi.org/10.1109/wowmom.2019.8793041" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.39</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Secure IoT access at scale using blockchains and smart contracts</h3>
+              <p class="publication-authors">Nikos Fotiou, Iakovos Pittaras, Vasilios A. Siris, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2019 IEEE 20th International Symposium on &quot;A World of Wireless, Mobile and Multimedia Networks&quot; (WoWMoM)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C39.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Secure IoT access at scale using blockchains and smart contracts">PDF</a><a class="pub-link" href="https://doi.org/10.1109/wowmom.2019.8793047" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.38</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>OAuth 2.0 meets Blockchain for Authorization in Constrained IoT Environments</h3>
+              <p class="publication-authors">Vasilios A. Siris, Dimitrios Dimopoulos, Nikos Fotiou, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2019 IEEE 5th World Forum on Internet of Things (WF-IoT)</cite> · pp. 364–367</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C38.pdf" target="_blank" rel="noopener" aria-label="Open PDF for OAuth 2.0 meets Blockchain for Authorization in Constrained IoT Environments">PDF</a><a class="pub-link" href="https://doi.org/10.1109/wf-iot.2019.8767223" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.37</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Interledger Smart Contracts for Decentralized Authorization to Constrained Things</h3>
+              <p class="publication-authors">Vasilios A. Siris, Dimitrios Dimopoulos, Nikos Fotiou, Spyros Voulgaris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)</cite> · pp. 336–341</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C37.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Interledger Smart Contracts for Decentralized Authorization to Constrained Things">PDF</a><a class="pub-link" href="https://doi.org/10.1109/infcomw.2019.8845275" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.36</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Bridging the cyber and physical worlds using blockchains and smart contracts</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris, Spyros Voulgaris, George C. Polyzos &amp; Dmitrij Lagutin</p>
+              <p class="publication-venue"><cite>Proceedings 2019 Workshop on Decentralized IoT Systems and Security</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C36.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Bridging the cyber and physical worlds using blockchains and smart contracts">PDF</a><a class="pub-link" href="https://doi.org/10.14722/diss.2019.230002" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.35</span><time>2019</time></div>
+            <div class="publication-copy">
+              <h3>Enabling Decentralised Identifiers and Verifiable Credentials for Constrained Internet-of-Things Devices using OAuth-based Delegation</h3>
+              <p class="publication-authors">Dmitrij Lagutin, Yki Kortesniemi, Nikos Fotiou &amp; Vasilios A. Siris</p>
+              <p class="publication-venue"><cite>Proceedings 2019 Workshop on Decentralized IoT Systems and Security</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C35.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Enabling Decentralised Identifiers and Verifiable Credentials for Constrained Internet-of-Things Devices using OAuth-based Delegation">PDF</a><a class="pub-link" href="https://doi.org/10.14722/diss.2019.23005" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.34</span><time>2018</time></div>
+            <div class="publication-copy">
+              <h3>Interacting with the Internet of Things Using Smart Contracts and Blockchain Technologies</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Lecture Notes in Computer Science</cite> · pp. 443–452</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C34.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Interacting with the Internet of Things Using Smart Contracts and Blockchain Technologies">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-030-05345-1_38" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.33</span><time>2018</time></div>
+            <div class="publication-copy">
+              <h3>Authentication and Authorization for Interoperable IoT Architectures</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Lecture Notes in Computer Science</cite> · pp. 3–16</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C33.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Authentication and Authorization for Interoperable IoT Architectures">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-030-04372-8_1" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.32</span><time>2018</time></div>
+            <div class="publication-copy">
+              <h3>Smart IoT Data Collection</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris, Alexandros Mertzianis &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2018 IEEE 19th International Symposium on &quot;A World of Wireless, Mobile and Multimedia Networks&quot; (WoWMoM)</cite> · pp. 588–599</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C32.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Smart IoT Data Collection">PDF</a><a class="pub-link" href="https://doi.org/10.1109/wowmom.2018.8449766" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.31</span><time>2018</time></div>
+            <div class="publication-copy">
+              <h3>Smart contracts for the Internet of Things: opportunities and challenges</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2018 European Conference on Networks and Communications (EuCNC)</cite> · pp. 256–260</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C31.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Smart contracts for the Internet of Things: opportunities and challenges">PDF</a><a class="pub-link" href="https://doi.org/10.1109/eucnc.2018.8443212" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.30</span><time>2017</time></div>
+            <div class="publication-copy">
+              <h3>Blockchain-assisted Information Distribution for the Internet of Things</h3>
+              <p class="publication-authors">George C. Polyzos &amp; Nikos Fotiou</p>
+              <p class="publication-venue"><cite>2017 IEEE International Conference on Information Reuse and Integration (IRI)</cite> · pp. 75–78</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C30.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Blockchain-assisted Information Distribution for the Internet of Things">PDF</a><a class="pub-link" href="https://doi.org/10.1109/iri.2017.83" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.29</span><time>2017</time></div>
+            <div class="publication-copy">
+              <h3>Edge-ICN and its application to the Internet of Things</h3>
+              <p class="publication-authors">Nikos Fotiou, Vasilios A. Siris, George Xylomenos, George C. Polyzos, Konstantinos V. Katsaros &amp; George Petropoulos</p>
+              <p class="publication-venue"><cite>2017 IFIP Networking Conference (IFIP Networking) and Workshops</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C29.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Edge-ICN and its application to the Internet of Things">PDF</a><a class="pub-link" href="https://doi.org/10.23919/ifipnetworking.2017.8264880" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.28</span><time>2016</time></div>
+            <div class="publication-copy">
+              <h3>Securing Information-Centric Networking without negating Middleboxes</h3>
+              <p class="publication-authors">Nikos Fotiou, George Xylomenos &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2016 8th IFIP International Conference on New Technologies, Mobility and Security (NTMS)</cite> · pp. 1–5</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C28.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Securing Information-Centric Networking without negating Middleboxes">PDF</a><a class="pub-link" href="https://doi.org/10.1109/ntms.2016.7792475" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.27</span><time>2016</time></div>
+            <div class="publication-copy">
+              <h3>Decentralized name-based security for content distribution using blockchains</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2016 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)</cite> · pp. 415–420</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C27.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Decentralized name-based security for content distribution using blockchains">PDF</a><a class="pub-link" href="https://doi.org/10.1109/infcomw.2016.7562112" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.26</span><time>2016</time></div>
+            <div class="publication-copy">
+              <h3>Securing Content Sharing over ICN</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Proceedings of the 3rd ACM Conference on Information-Centric Networking</cite> · pp. 176–185</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C26.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Securing Content Sharing over ICN">PDF</a><a class="pub-link" href="https://doi.org/10.1145/2984356.2984376" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.25</span><time>2016</time></div>
+            <div class="publication-copy">
+              <h3>Access Control for the Internet of Things</h3>
+              <p class="publication-authors">Nikos Fotiou, Theodore Kotsonis, Giannis F. Marias &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2016 International Workshop on Secure Internet of Things (SIoT)</cite> · pp. 29–38</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C25.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Access Control for the Internet of Things">PDF</a><a class="pub-link" href="https://doi.org/10.1109/siot.2016.010" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.24</span><time>2016</time></div>
+            <div class="publication-copy">
+              <h3>Protecting medical data stored in public Clouds</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George Xylomenos</p>
+              <p class="publication-venue"><cite>Proceedings of the International Conference on Information and Communication Technologies for Ageing Well and e-Health</cite> · pp. 127–132</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C24.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Protecting medical data stored in public Clouds">PDF</a><a class="pub-link" href="https://doi.org/10.5220/0005912801270132" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.23</span><time>2015</time></div>
+            <div class="publication-copy">
+              <h3>iP Over ICN - The Better IP?</h3>
+              <p class="publication-authors">Dirk Trossen, Martin J. Reed, Janne Riihijarvi, Michael Georgiades, Nikos Fotiou &amp; George Xylomenos</p>
+              <p class="publication-venue"><cite>2015 European Conference on Networks and Communications (EuCNC)</cite> · pp. 413–417</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C23.pdf" target="_blank" rel="noopener" aria-label="Open PDF for iP Over ICN - The Better IP?">PDF</a><a class="pub-link" href="https://doi.org/10.1109/eucnc.2015.7194109" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.22</span><time>2015</time></div>
+            <div class="publication-copy">
+              <h3>I-CAN: Information-Centric Access Networking – Architecture and Experiments</h3>
+              <p class="publication-authors">V. A. Siris, N. Fotiou, D. Dimopoulos &amp; G. C. Polyzos</p>
+              <p class="publication-venue"><cite>2015 European Conference on Networks and Communications (EuCNC)</cite> · pp. 418–422</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C22.pdf" target="_blank" rel="noopener" aria-label="Open PDF for I-CAN: Information-Centric Access Networking – Architecture and Experiments">PDF</a><a class="pub-link" href="https://doi.org/10.1109/EUCNC.2015.7194110" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.21</span><time>2015</time></div>
+            <div class="publication-copy">
+              <h3>Enabling NAME-based security and trust</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>IFIP Advances in Information and Communication Technology</cite> · pp. 47–59</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C21.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Enabling NAME-based security and trust">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-319-18491-3_4" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.20</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>Security Requirements and Solutions for Integrated Satellite-Terrestrial   Information-Centric Networks</h3>
+              <p class="publication-authors">Nikos Fotiou, Yiannis Thomas, Vasilios A. Siris &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2014 7th Advanced Satellite Multimedia Systems Conference and the 13th Signal Processing for Space Communications Workshop (ASMS/SPSC)</cite> · pp. 106–113</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C20.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Security Requirements and Solutions for Integrated Satellite-Terrestrial   Information-Centric Networks">PDF</a><a class="pub-link" href="https://doi.org/10.1109/asms-spsc.2014.6934531" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.19</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>Fighting packet storms in mobile networks with information-centrism</h3>
+              <p class="publication-authors">Vaggelis G. Douros, Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>10th International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness</cite> · pp. 195–196</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C19.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Fighting packet storms in mobile networks with information-centrism">PDF</a><a class="pub-link" href="https://doi.org/10.1109/qshine.2014.6928689" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.18</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>Realizing the Internet of Things using Information-Centric Networking</h3>
+              <p class="publication-authors">Nikos Fotiou &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>10th International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness</cite> · pp. 193–194</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C18.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Realizing the Internet of Things using Information-Centric Networking">PDF</a><a class="pub-link" href="https://doi.org/10.1109/qshine.2014.6928688" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.17</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>A framework for privacy analysis of ICN architectures</h3>
+              <p class="publication-authors">Nikos Fotiou, Somaya Arianfar, Mikko Särelä &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Lecture Notes in Computer Science</cite> · pp. 117–132</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C17.pdf" target="_blank" rel="noopener" aria-label="Open PDF for A framework for privacy analysis of ICN architectures">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-319-06749-0_8" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.16</span><time>2014</time></div>
+            <div class="publication-copy">
+              <h3>Access control delegation for the Cloud</h3>
+              <p class="publication-authors">Nikos Fotiou, Apostolis Machas, George C. Polyzos &amp; George Xylomenos</p>
+              <p class="publication-venue"><cite>2014 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)</cite> · pp. 13–18</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C16.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Access control delegation for the Cloud">PDF</a><a class="pub-link" href="https://doi.org/10.1109/infcomw.2014.6849161" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.15</span><time>2013</time></div>
+            <div class="publication-copy">
+              <h3>Towards Secure and Context-Aware Information Lookup for the Internet of Things</h3>
+              <p class="publication-authors">M. Giannikos, K. Kokoli, N. Fotiou, G. Marias &amp; G.C. Polyzos</p>
+              <p class="publication-venue"><cite>2013 International Conference on Computing, Networking and Communications (ICNC)</cite> · pp. 632–636</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C15.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Towards Secure and Context-Aware Information Lookup for the Internet of Things">PDF</a><a class="pub-link" href="https://doi.org/10.1109/ICCNC.2013.6504160" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.14</span><time>2012</time></div>
+            <div class="publication-copy">
+              <h3>Access Control Enforcement Delegation for Information-Centric Networking Architectures</h3>
+              <p class="publication-authors">Nikos Fotiou, Giannis F. Marias &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>ACM SIGCOMM Computer Communication Review</cite> · pp. 497–502</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C14.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Access Control Enforcement Delegation for Information-Centric Networking Architectures">PDF</a><a class="pub-link" href="https://doi.org/10.1145/2377677.2377773" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.13</span><time>2012</time></div>
+            <div class="publication-copy">
+              <h3>Efficient information lookup for the Internet of Things</h3>
+              <p class="publication-authors">G.F. Marias, N. Fotiou &amp; G.C. Polyzos</p>
+              <p class="publication-venue"><cite>2012 IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C13.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Efficient information lookup for the Internet of Things">PDF</a><a class="pub-link" href="https://doi.org/10.1109/wowmom.2012.6263786" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.12</span><time>2012</time></div>
+            <div class="publication-copy">
+              <h3>Fighting phishing the information-centric way</h3>
+              <p class="publication-authors">Nikos Fotiou, Giannis F. Marias &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>2012 5th International Conference on New Technologies, Mobility and Security (NTMS)</cite> · pp. 1–5</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C12.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Fighting phishing the information-centric way">PDF</a><a class="pub-link" href="https://doi.org/10.1109/ntms.2012.6208747" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.11</span><time>2012</time></div>
+            <div class="publication-copy">
+              <h3>On Inter-domain Name Resolution for Information-Centric Networks</h3>
+              <p class="publication-authors">Konstantinos V. Katsaros, Nikos Fotiou, Xenofon Vasilakos, Christopher N. Ververidis, Christos Tsilopoulos, George Xylomenos &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Lecture Notes in Computer Science</cite> · pp. 13–26</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C11.pdf" target="_blank" rel="noopener" aria-label="Open PDF for On Inter-domain Name Resolution for Information-Centric Networks">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-642-30045-5_2" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.10</span><time>2012</time></div>
+            <div class="publication-copy">
+              <h3>Towards Adaptable Security for Energy Efficiency in Wireless Sensor Networks</h3>
+              <p class="publication-authors">N. Fotiou, G.F. Marias, G.C. Polyzos, P. Szalachowsk, Z. Kotulski, M. Niedermeier, X. He &amp; H. de Meer</p>
+              <p class="publication-venue"><cite>28th Wireless World Research Forum (WWRF) Meeting</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C10.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Towards Adaptable Security for Energy Efficiency in Wireless Sensor Networks">PDF</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.9</span><time>2011</time></div>
+            <div class="publication-copy">
+              <h3>Context-Aware Delivery of Information in Assistive Environments utilizing Future Internet Technologies</h3>
+              <p class="publication-authors">Charalampos Doukas, Nikos Fotiou, George C. Polyzos &amp; Ilias Maglogiannis</p>
+              <p class="publication-venue"><cite>Proceedings of the 4th International Conference on PErvasive Technologies Related to Assistive Environments</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C9.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Context-Aware Delivery of Information in Assistive Environments utilizing Future Internet Technologies">PDF</a><a class="pub-link" href="https://doi.org/10.1145/2141622.2141658" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.8</span><time>2012</time></div>
+            <div class="publication-copy">
+              <h3>Developing Information Networking Further: From PSIRP to PURSUIT</h3>
+              <p class="publication-authors">Nikos Fotiou, Pekka Nikander, Dirk Trossen &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering</cite> · pp. 1–13</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C8.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Developing Information Networking Further: From PSIRP to PURSUIT">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-642-30376-0_1" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.7</span><time>2010</time></div>
+            <div class="publication-copy">
+              <h3>Security Aspects of a Clean Slate Information Oriented Internet Architecture</h3>
+              <p class="publication-authors">N. Fotiou, G.F. Marias &amp; G.C. Polyzos</p>
+              <p class="publication-venue"><cite>21st International Tyrrhenian Workshop on Digital Communications</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C7.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Security Aspects of a Clean Slate Information Oriented Internet Architecture">PDF</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.6</span><time>2010</time></div>
+            <div class="publication-copy">
+              <h3>Towards a Secure Rendezvous Network for Future Publish/Subscribe Architectures</h3>
+              <p class="publication-authors">Nikos Fotiou, Giannis F. Marias &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>Lecture Notes in Computer Science</cite> · pp. 49–56</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C6.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Towards a Secure Rendezvous Network for Future Publish/Subscribe Architectures">PDF</a><a class="pub-link" href="https://doi.org/10.1007/978-3-642-15877-3_6" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.5</span><time>2010</time></div>
+            <div class="publication-copy">
+              <h3>Fighting Spam in Publish/Subscribe Networks Using Information Ranking</h3>
+              <p class="publication-authors">Nikos Fotiou, Giannis F. Marias &amp; George C. Polyzos</p>
+              <p class="publication-venue"><cite>6th EURO-NGI Conference on Next Generation Internet</cite> · pp. 1–6</p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C5.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Fighting Spam in Publish/Subscribe Networks Using Information Ranking">PDF</a><a class="pub-link" href="https://doi.org/10.1109/ngi.2010.5534464" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.4</span><time>2010</time></div>
+            <div class="publication-copy">
+              <h3>Information Ranking in Content-Centric Networks</h3>
+              <p class="publication-authors">N. Fotiou, G.F. Marias &amp; G.C. Polyzos</p>
+              <p class="publication-venue"><cite>Future Network and Mobile Summit 2010</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C4.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Information Ranking in Content-Centric Networks">PDF</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.3</span><time>2009</time></div>
+            <div class="publication-copy">
+              <h3>Overlay Multicast Assisted Mobility for Future Publish/Subscribe Networks</h3>
+              <p class="publication-authors">K. Katsaros, N. Fotiou, G.C. Polyzos &amp; G. Xylomenos</p>
+              <p class="publication-venue"><cite>ICT Mobile Summit 2009</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C3.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Overlay Multicast Assisted Mobility for Future Publish/Subscribe Networks">PDF</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.2</span><time>2009</time></div>
+            <div class="publication-copy">
+              <h3>Supporting Mobile Streaming Services in Future Publish/Subscribe Networks</h3>
+              <p class="publication-authors">K. Katsaros, N. Fotiou, G.C. Polyzos &amp; G. Xylomenos</p>
+              <p class="publication-venue"><cite>2009 Wireless Telecommunications Symposium (WTS)</cite> · pp. 1–7</p>
+            </div>
+            <div class="publication-copy">
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C2.pdf" target="_blank" rel="noopener" title="Supporting Mobile Streaming Services in Future Publish/Subscribe Networks">PDF</a><a class="pub-link" href="https://doi.org/10.1109/WTS.2009.5068987" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+<article class="publication">
+            <div class="publication-index"><span>C.1</span><time>2009</time></div>
+            <div class="publication-copy">
+              <h3>Illustrating a Publish-Subscribe Internet Architecture</h3>
+              <p class="publication-authors">N. Fotiou, G.C. Polyzos &amp; D. Trossen</p>
+              <p class="publication-venue"><cite>2nd Euro-NF Workshop on Future Internet Architectures: New Trends in Service Architectures</cite></p>
+            </div>
+            <div class="publication-links"><a class="pub-link pub-link-primary" href="publications/C1.pdf" target="_blank" rel="noopener" aria-label="Open PDF for Illustrating a Publish-Subscribe Internet Architecture">PDF</a></div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div><a class="wordmark" href="#top">NF<span>.</span></a></div>
+      <p>© 2026 Nikos Fotiou</p>
+    </div>
+  </footer>
 </body>
 </html>
