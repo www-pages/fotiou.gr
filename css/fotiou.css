@@ -121,7 +121,7 @@ img {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 92px 0 104px;
+  padding: 72px 0 80px;
   background:
     radial-gradient(circle at 6% 15%, rgba(15, 124, 120, 0.12), transparent 32%),
     linear-gradient(135deg, #f7f7f2 0%, #edf2ef 100%);
@@ -284,13 +284,14 @@ img {
 }
 
 .profile-links {
-  display: flex;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 8px;
 }
 
 .profile-links a {
   display: flex;
+  grid-column: span 2;
   flex: 1 1 0;
   align-items: center;
   justify-content: center;
@@ -312,6 +313,15 @@ img {
   width: 17px;
   height: 17px;
   object-fit: contain;
+}
+
+.profile-links .profile-link-bluesky {
+  grid-column: span 3;
+  font-size: 11px;
+}
+
+.profile-links .profile-link-x {
+  grid-column: span 3;
 }
 
 .section {
@@ -403,6 +413,28 @@ img {
 
 .publications {
   background: var(--paper);
+}
+
+.news {
+  background: #183e57;
+}
+
+.news .publications-heading {
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.news .publications-heading h2 {
+  color: #fff;
+}
+
+.news-list {
+  margin: 32px 0 0;
+  padding-left: 24px;
+  color: #d9e7ed;
+}
+
+.news-list li + li {
+  margin-top: 10px;
 }
 
 .publications-heading {
